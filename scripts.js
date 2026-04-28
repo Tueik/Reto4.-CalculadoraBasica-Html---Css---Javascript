@@ -146,7 +146,6 @@ for (const boton of botones) {
 
         } else if (botonApretado == " = ") {
 
-
             if (seleccionando_operador) {
 
                 if (cantidad2 == undefined){
@@ -207,10 +206,9 @@ for (const boton of botones) {
 
             }
 
-
         } else if (botonApretado == "C") {
-            pantalla.setAttribute("value", " ");
             limpiar();
+            pantalla.setAttribute("value", " ");
 
 
         } else { // ## Bloque Entrada Números ##
@@ -229,8 +227,6 @@ for (const boton of botones) {
             pantalla.setAttribute("value", acumulado);
             
         }
-
-
 
     });
 
