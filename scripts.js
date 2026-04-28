@@ -52,7 +52,7 @@ function operacion(operador, n1, n2) {
 
     if (operador == " / ") {
         
-        if (n1 == 0 && n2 == 0){
+        if (n2 == 0){
             alert("Alerta: No se puede dividir entre 0");
             limpiar();
             return 0;
@@ -74,9 +74,6 @@ for (const boton of botones) {
 
         if (botonApretado == " + " || botonApretado == " - " || botonApretado == " x " || botonApretado == " / ") {
             pantalla.setAttribute("value", botonApretado)
-
-
-            //console.log(Number.isInteger(cantidad1));
 
             if (!Number.isInteger(cantidad1)) { // Si sí esta vacío
 
@@ -126,8 +123,6 @@ for (const boton of botones) {
                     operador = botonApretado;
                     seleccionando_operador = true;
 
-
-
                 } else {
 
                     cantidad2 = parseInt(acumulado);
@@ -139,7 +134,6 @@ for (const boton of botones) {
                     acumulado = "";
                     cantidad2 = "";
                 }
-
 
             }
 
