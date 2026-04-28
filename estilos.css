@@ -1,0 +1,96 @@
+body {
+    
+    background: #3247b3;
+    background: linear-gradient(90deg,rgba(50, 71, 179, 1) 0%, rgba(56, 125, 199, 1) 52%, rgba(40, 57, 184, 1) 100%);
+    margin: 0;
+    align-content: center;
+    text-align: center;
+    /* background-color: rgb(33, 73, 132); */
+    font-family: "Roboto", sans-serif;
+
+}
+
+h1 {
+    
+    font-weight: 600;
+    color: white;
+}
+
+.sombra {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 1%;
+    
+}
+
+.contenedor {
+    display: block;
+    width: 40rem;
+    margin: 135px auto;
+    padding: 10px 5px 50px;
+    background-color: rgba(251, 251, 252, 0.658);
+    border-radius: 10px;
+}
+
+.calculadora {
+    display: block;
+    width: 350px;
+    padding: 50px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+
+
+#pantalla_resultado {
+    width: 310px;
+    height: 70px;
+    margin: -5px auto 30px;
+    border-radius: 10px;
+    /* border-color: azure; */
+    border-color: azure;
+    font-size: 25px;
+    text-align: right;
+    color: black;
+    background-color: rgb(245, 248, 251);
+}
+
+
+input[type="button"]{
+    padding: 15px;
+    border-radius: 10px;
+    border-color: azure;
+    background-color: aliceblue;
+    margin: 5px;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+input[type="button"]:hover{
+
+    background-color: rgb(235, 240, 245);
+    cursor: pointer;
+}
+
+
+/* 
+Propiedades compuestas
+
+compuesta: 10px     20px     30px   40px 
+           arriba,  derecha, abajo, izquierda
+
+tres valores: 10px          10px       40px 
+              arriba, eje horizontal, abajo
+
+dos valores: 10px      20px 
+             vertical, horizontal
+
+todo: 10px
+*/
+
+.font-mozilla {
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 115%;
+
+}
