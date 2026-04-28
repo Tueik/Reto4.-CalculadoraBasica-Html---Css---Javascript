@@ -54,6 +54,7 @@ function operacion(operador, n1, n2) {
         
         if (n1 == 0 && n2 == 0){
             alert("Alerta: No se puede dividir entre 0");
+            limpiar();
             return 0;
         } else {
             resultado_operacion = n1 / n2;
@@ -213,7 +214,7 @@ for (const boton of botones) {
 
 
         } else { // ## Bloque Entrada Números ##
-            
+
             seleccionando_operador = false;
 
             if (repetir_operacion) {
